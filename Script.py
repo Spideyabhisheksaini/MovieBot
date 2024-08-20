@@ -225,19 +225,20 @@ Nᴀᴍᴇ - {}"""
 <blockquote>Jᴏɪɴ Us ➠ @MovieTimesTV</blockquote></b>""" 
 
         IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
-Requested by : {message.from_user.mention}
+<b>Query: {query}
+Requested by: {message.from_user.mention}</b>
 
 IMDb Data:
 
-<b>🏷 Title</b>: <a href={url}>{title}</a>
+<b>🏷 Title</b>: <a href="{url}">{title}</a>
 🎭 Genres: {genres}
-🌟 Rating: <a href={url}/ratings>{rating}</a> / 10
-☀️ Languages : {languages}
-📆 Release Info : {release_date}
-🎛 Countries : {countries}
+🌟 Rating: <a href="{url}/ratings">{rating}</a> / 10
+☀️ Languages: {languages}
+📆 Release Info: {release_date}
+🎛 Countries: {countries}
 
-Pᴏᴡᴇʀᴇᴅ Bʏ ➠ @TonyStark_Botz</b>"""
+Pᴏᴡᴇʀᴇᴅ Bʏ ➠ @TonyStark_Botz</b>
+"""
 
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
