@@ -224,7 +224,7 @@ Nᴀᴍᴇ - {}"""
 
 <blockquote>Jᴏɪɴ Us ➠ @MovieTimesTV</blockquote></b>""" 
 
-        IMDB_TEMPLATE_TXT = """<b>Query: {query}
+    IMDB_TEMPLATE_TXT = """<b>Query: {query}
 Requested by: {message.from_user.mention}</b>
 
 IMDb Data:
